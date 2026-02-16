@@ -53,7 +53,7 @@ insight2profit_case_study/
 
 ## Notes
 
-* The provided `OrderDate` column contains only year–month values (e.g. `2021-06`).  
+* The provided `OrderDate` column contains year–month values (e.g. `2021-06`) and normal dates.  
   The code interprets these values as the first day of the month (e.g. `2021-06-01`) in order to compute a lead time.
 * Business days exclude Saturdays and Sundays.  
   The calculation uses numpy’s `busday_count` to count the number of weekdays between two dates.
