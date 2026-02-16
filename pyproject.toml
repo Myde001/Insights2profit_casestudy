@@ -1,0 +1,24 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "insight2profit_case_study"
+version = "0.1.0"
+description = "Insight2Profit case study solution using pandas and SQLite."
+authors = [
+    { name = "Insight2Profit Candidate", email = "candidate@example.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.5.3",
+    "numpy>=1.21.6",
+    "python-dateutil>=2.8.2",
+    "sqlalchemy>=1.4.46"  # optional, not used at runtime but included for completeness
+]
+
+[project.urls]
+"Homepage" = "https://example.com/insight2profit_case_study"
