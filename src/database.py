@@ -3,7 +3,7 @@
 This module avoids an external dependency on SQLAlchemy by leveraging
 Python’s built‑in ``sqlite3`` library.  It provides simple wrappers to
 create a database connection, write DataFrames to SQL tables, and read
-tables back into pandas.
+tables back into pandas..
 """
 
 from __future__ import annotations
