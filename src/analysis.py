@@ -1,7 +1,7 @@
 """Analytical queries on the publish tables.
 
 This module contains functions that answer the questions posed in the
-interview case study using pandas.  The functions accept DataFrames and
+case study using pandas.  The functions accept DataFrames and
 return the results as DataFrames, suitable for printing or further
 processing.
 """
